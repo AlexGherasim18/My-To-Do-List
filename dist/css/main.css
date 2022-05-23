@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-image: linear-gradient(90deg, #ad85f2, #2474b9); }
+
+header {
+  color: #f4f4f4;
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 2.6rem; }
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%; }
+  form input {
+    height: 40px;
+    width: 25%; }
+  form button {
+    height: 40px;
+    width: 10%;
+    cursor: pointer;
+    border: none; }
+
+ul {
+  max-width: 480px;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  line-height: 2.2rem;
+  padding-top: 2rem; }
+
+li {
+  max-width: 100%;
+  background-color: #f4f4f4;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease-in; }
+  li a {
+    width: 10%; }
+  li p {
+    width: 70%;
+    font-size: 1vw; }
+
+.fall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0; }
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5; }
+
+.submit-btn {
+  background-color: #ad85f2;
+  color: #f4f4f4; }
+  .submit-btn:hover {
+    background-color: #392A50;
+    transition: all 0.4s ease-in; }
+
+.check-btn {
+  background-color: #6AC18A; }
+  .check-btn:hover {
+    background-color: #392A50;
+    transition: all 0.4s ease-in; }
+
+.delete-btn {
+  background-color: #F80346; }
+  .delete-btn:hover {
+    background-color: #392A50;
+    transition: all 0.4s ease-in; }
+
+.update-btn {
+  background-color: #ad85f2; }
+  .update-btn:hover {
+    background-color: #392A50;
+    transition: all 0.4s ease-in; }
+
+#footer {
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  color: #f4f4f4;
+  background-color: #000; }
